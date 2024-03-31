@@ -190,7 +190,7 @@ h1 {
 
 /* Media query para pantallas más pequeñas, como dispositivos móviles */
 @media screen and (max-width: 768px) {
-  h1 {
+  h1, p {
     font-size: 24px; /* Tamaño del texto para dispositivos móviles */
   }
 }
