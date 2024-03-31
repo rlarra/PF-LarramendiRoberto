@@ -183,6 +183,17 @@ p {
   .social-icon:hover {
     color: skyblue;
   }
+/* Estilos para el título en pantallas grandes */
+h1 {
+  font-size: 36px; /* Tamaño del texto para pantallas grandes */
+}
+
+/* Media query para pantallas más pequeñas, como dispositivos móviles */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px; /* Tamaño del texto para dispositivos móviles */
+  }
+}
 
   
   
